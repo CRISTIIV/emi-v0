@@ -1,16 +1,16 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Vicente",
+  lastName: "Cristi",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Design Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "America/Santiago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["Español"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -27,7 +27,7 @@ const newsletter = {
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
-  {
+  {/*{
     name: "GitHub",
     icon: "github",
     link: "https://github.com/once-ui-system/nextjs-starter",
@@ -46,14 +46,14 @@ const social = [
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
-  },
+  },*/},
 ];
 
 const home = {
   path: "/",
   image: "/images/og/home.jpg",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
+  title: `Sm𖹭teP`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Building bridges between design and code</>,
   featured: {
@@ -216,7 +216,7 @@ const work = {
 
 const gallery = {
   path: "/gallery",
-  label: "Gallery",
+  label: "Recuerdos",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
   // Images by https://lorant.one

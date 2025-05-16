@@ -19,23 +19,23 @@ export const Footer = () => {
         paddingY="8"
         paddingX="16"
         gap="16"
-        horizontal="space-between"
+        horizontal="center"
         vertical="center"
       >
         <Text variant="body-default-s" onBackground="neutral-strong">
           <Text onBackground="neutral-weak">© {currentYear} /</Text>
-          <Text paddingX="4">{person.name}</Text>
+          {/*<Text paddingX="4">{person.name}</Text>*/}
+          <Text paddingX="4">VC</Text>
           <Text onBackground="neutral-weak">
-            {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
-            / Build your portfolio with{" "}
+            / Hecho con mucho AMOR para {" "}
             <SmartLink
-              href="https://once-ui.com/templates/magic-portfolio"
+              href="https://www.instagram.com/emii.albanez"
             >
-              Once UI
+              EMI
             </SmartLink>
           </Text>
         </Text>
-        <Flex gap="16">
+        {/*<Flex gap="16">
           {social.map(
             (item) =>
               item.link && (
@@ -49,7 +49,7 @@ export const Footer = () => {
                 />
               ),
           )}
-        </Flex>
+        </Flex>*/}
       </Flex>
       <Flex height="80" show="s"></Flex>
     </Flex>
